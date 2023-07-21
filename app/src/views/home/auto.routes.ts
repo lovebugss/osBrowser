@@ -2,7 +2,7 @@ const routes: RouteConfig[] = [
   {
     name: 'Home',
     path: '/',
-    redirectTo: '/demo?form=home',
+    redirectTo: '/bucket-list?form=home',
     windowOptions: {
       title: 'App Home (redirect to demo)',
       width: 1200,

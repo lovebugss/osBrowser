@@ -2,6 +2,12 @@
   {
     "key": "Demo",
     "href": "#/",
+    "title": "Demo",
+    "icon": "home-3"
+  },
+  {
+    "key": "Home",
+    "href": "#/bucket-list",
     "title": "Home",
     "icon": "home-3"
   },

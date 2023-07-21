@@ -69,7 +69,7 @@ export class AppRouter extends React.Component<AppRouterProps, AppRouterState> {
     const res: JSX.Element[] = []
     let noMatch: JSX.Element | undefined = undefined
 
-    routes.forEach((conf) => {
+    routes.forEach((conf:RouteConfig) => {
       const routeEl = this.creatRouteItem(conf)
       if (!routeEl) return
 
